@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+
+}
+
+img {
+    width: 30%;
+    height: 10rem;
+    margin: calc(10%/7);
+}
+
+
+
+nav {
+    margin: calc(10%/7);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    border-bottom: 2px solid gray;
+    padding: 1.2em 0;
+    font-size: 1em;
+}
