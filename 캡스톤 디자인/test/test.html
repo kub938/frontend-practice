@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>네이버 지역 검색</title>
 
-    <title>Document</title>
-    <script src=" https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js "> </script>
 </head>
 
 <body>
-    <form action="./test.js" onsubmit="return false;" method="post">
-        <input id='local_name' type="text" placeholder="지역이름">
-        <input type="submit" value='제출' id='local_submit'>
+    <form id="location-search-form">
+        <label for="query">지역 검색어:</label>
+        <input type="text" name="query" id="query" />
+        <button type="submit">검색</button>
     </form>
+    <pre id="result"></pre>
+
 
     <script src="test.js"></script>
+    <script type="module" src="index.mjs"></script>
 </body>
 
 </html>
