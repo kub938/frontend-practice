@@ -1,0 +1,170 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+}
+
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Header */
+header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.203);
+}
+
+header #title {
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+#topMenu ul {
+
+    display: flex;
+    list-style-type: none;
+}
+
+#topMenu li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 1.8rem;
+}
+
+/* Main */
+
+#introduce {
+    font-family: 'Kalam', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.mainPage {
+    display: flex;
+    background-color: rgb(44, 45, 50);
+    text-align: center;
+    color: white;
+    height: 50vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#myName,
+#aboutMe {
+    font-size: 2em;
+}
+
+
+
+
+
+
+/* Projects */
+
+.Project #project {
+    display: flex;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+
+.Project #project div,
+#ptImg {
+    width: 50%;
+    height: 100%;
+}
+
+#ptImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Project #project #ptContent {
+    width: 50%;
+    height: 100%;
+    background: blue;
+}
+
+/* .pjSec {
+    display: flex;
+}
+
+.pjSec,
+#skill {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.pjSec h3,
+#skill h3 {
+    font-size: 1.2rem;
+}
+
+.pjSec #pjList div[id^="pjImage"] {
+    flex-basis: calc(33.333% - 1rem);
+    margin: .5rem;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.pjSec #pjList div[id^="pjContent"] {
+    background-color: #333;
+    color: #fff;
+    min-width: 100px;
+    text-align: center;
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+.pjSec div #pjContent {
+    margin-top: 1rem;
+
+} */
+
+/* Skills */
+#skill {
+    display: flex;
+}
+
+#skill div[id^="pjImage"] {
+    flex-basis: 50%;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+#pj {
+    display: inline-flex;
+}

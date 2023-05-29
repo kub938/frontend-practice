@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)http://127.0.0.1:5500/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/main.html#skill -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+    
+    
+    
+
+    <title>Kim's Portfolio</title>
+<link rel="stylesheet" href="./Kim&#39;s Portfolio_files/style.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Kim&#39;s Portfolio_files/css2" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Kim&#39;s Portfolio_files/css2(1)" rel="stylesheet"></head>
+
+<body>
+    <header>
+        <h2 id="title">YB.</h2>
+        <nav id="topMenu">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/main.html#about">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/main.html#pj">Project</a></li>
+                <li><a href="http://127.0.0.1:5500/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/main.html#skill">Skill</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="introduce">
+            PORTFOLIO
+        </div>
+
+        
+        <div class="mainPage">
+            <p id="myName">
+                Kim<br>
+                YunBae.
+            </p>
+            <div id="aboutMe">
+                <p>안녕하세요</p>
+                <p>Hello</p>
+            </div>
+        </div>
+
+        <section class="Project">
+            <div>project</div>
+            <div id="project">
+                <div>
+                    <img src="./Kim&#39;s Portfolio_files/clouds-1282314_1280.jpg" id="ptImg" alt="">
+                </div>
+                <div id="ptContent">안녕하세요 1번 프로젝트입니다.</div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        2020~ 진행중
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
